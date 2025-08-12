@@ -49,6 +49,7 @@ Wireshark supports powerful filtering (Display & Capture filters) to isolate spe
 ## >>> Nmap -oN,-oX
 - `-oN`: To save the report in text file(`.txt`).
 - `-oX`: To save the report in XML file.
+- All report text files given in files section and a wireshark packet capture file is there.
 ## >>> Some Other Popular Nmap Commads
 - **-sT**: Performs a full TCP connect scan by completing the 3-way handshake.  
 - **-sU**: Scans UDP ports to detect open/closed/filtered services.
