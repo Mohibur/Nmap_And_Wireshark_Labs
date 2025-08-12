@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Tue Aug 12 03:35:29 2025 as: /usr/lib/nmap/nmap -sS -Pn -p- -T4 -oN nmap_syn.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0025s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 08:00:27:96:53:5F (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Aug 12 03:36:32 2025 -- 1 IP address (1 host up) scanned in 63.08 seconds
